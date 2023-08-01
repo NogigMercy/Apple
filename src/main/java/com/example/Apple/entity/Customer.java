@@ -16,7 +16,7 @@ public class Customer {
     private String email;
     private int phoneNumber;
     private double balance;
-
+//asalamaaleikum
     @OneToMany(mappedBy = "Apple")
     @JsonIgnoreProperties("Apple")
 
